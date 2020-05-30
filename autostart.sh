@@ -6,3 +6,6 @@ feh --bg-scale --no-fehbg $HOME/usr/Images/japanese_white_washed_red_bridge.jpg
 # Source my X colors
 xrdb $HOME/sys/config/Xresources
 
+#Run picom
+picom -b -f
+
