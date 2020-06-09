@@ -1,5 +1,5 @@
 # dwm
-Yet ANOTHER fork of suckless's dwm. Patched with fibonacci tiling, vanity gaps, and autostart support. 
+Yet ANOTHER fork of suckless's dwm. Patched with fibonacci tiling, vanity gaps, swallowing, and autostart support. 
 
 ## Original README
 
