@@ -4,7 +4,7 @@
 xwallpaper --center ~/usr/Images/dark-leaves.png
 
 # Source my X colors
-xrdb $HOME/sys/config/Xresources
+xrdb $XDG_CONFIG_HOME/Xresources
 
 #Run picom
 picom -b -f
@@ -14,3 +14,6 @@ while true; do
    xsetroot -name "$( date +"  %R" )"
    sleep 1m    # Update time every minute
 done &
+
+#Turn on syncthing, my file syncer
+syncthing -no-browser
