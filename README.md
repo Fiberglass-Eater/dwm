@@ -1,5 +1,5 @@
 # dwm
-Yet ANOTHER fork of suckless's dwm. Patched with fibonacci tiling, vanity gaps, swallowing, sticky windows, and autostart support. 
+Yet ANOTHER fork of suckless's dwm. Patched with fibonacci tiling, vanity gaps, swallowing, sticky windows, and autostart support. Based off of dwm version 6.2
 
 ## Original README
 
