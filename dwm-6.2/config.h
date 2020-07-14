@@ -25,20 +25,21 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "", "", "", "", "", "", "", "" };
+static const char *tags[] = { "", "", "",  "", "", "" };
 
 static const Rule rules[] = {
 	/* xprop(1):
 	 *	WM_CLASS(STRING) = instance, class
 	 *	WM_NAME(STRING) = title
 	 */
-	/* class      instance    title       tags mask   	 isterminal	 isfloating   monitor */
+	/* class      instance    title       tags mask  isfloating   isterminal  noswallow   monitor */
 
 	{ "Gimp",    NULL,     NULL,           0,         1,          0,           0,        -1 },
 	{ "Firefox", NULL,     NULL,           0,         0,          0,          -1,        -1 },
 	{ "xst",     NULL,     NULL,           0,         0,          1,          -1,        -1 },
-	{ "lf",      NULL,     NULL,           0,         0,          1,          -1,        -1 },
-	{ "Steam",   NULL,     NULL,           6,         0,          1,          -1,        -1 },
+	{ "Steam",   NULL,     NULL,           1 << 3,    0,          0,          -1,        -1 },
+	{ "discord", NULL,     NULL,           1 << 5,    0,          0,          -1,        -1 },
+	{ "Spotify", NULL,     NULL,           1 << 4,    0,          0,          -1,        -1 },
 	{ NULL,      NULL,     "Event Tester", 0,         1,          0,           1,        -1 }, /* xev */
  /* xev */
 };
