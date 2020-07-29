@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #Set my background
-xwallpaper --center ~/usr/Images/dark-leaves.png
+xwallpaper --center ~/usr/Images/beat-tape-31.png
 
 # Source my X colors
 xrdb $XDG_CONFIG_HOME/Xresources
