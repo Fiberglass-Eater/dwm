@@ -13,8 +13,8 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "TamzenForPowerline:size=14" };
 static const char dmenufont[]       = "TamzenForPowerline:size=14";
-static const char col_gray1[]       = "#282828";
-static const char col_gray2[]       = "#282828";
+static const char col_gray1[]       = "#2b2828";
+static const char col_gray2[]       = "#2b2828";
 static const char col_gray3[]       = "#a89984";
 static const char col_gray4[]       = "#ebdbb2";
 static const char col_cyan[]        = "#3c3836";
@@ -36,10 +36,10 @@ static const Rule rules[] = {
 
 	{ "Gimp",    		NULL,     NULL,           0,         1,          0,           0,        -1 },
 	{ "Firefox", 		NULL,     NULL,           0,         0,          0,          -1,        -1 },
-	{ "xst",     		NULL,     NULL,           0,         0,          1,          -1,        -1 },
+	{ "xst",     		NULL,     NULL,           1 << 2,    0,          1,          -1,        -1 },
 	{ "Steam",   		NULL,     NULL,           1 << 3,    0,          0,          -1,        -1 },
 	{ "discord", 		NULL,     NULL,           1 << 5,    0,          0,          -1,        -1 },
-	{ "Spotify", 		NULL,     NULL,           1 << 4,    0,          0,          -1,        -1 },
+	{ "Spotify", 		NULL,     NULL,           1 << 4,    0,          0,          -1,         1 },
 	{ "Tor Browser", 	NULL,     NULL,           0,         1,          0,          -1,        -1 },
 	{ NULL,      		NULL,     "Event Tester", 0,         1,          0,           1,        -1 }, /* xev */
  /* xev */
